@@ -1,0 +1,301 @@
+textarea {
+    min-height: 200px; 
+    width: 100%; 
+    resize: none;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("./resources/background.jpg");
+}
+
+.redText {
+    color: red;
+}
+
+.scrollable {
+    overflow: scroll;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 500px;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.shadow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    background-color: #000000;
+    opacity: 0.3;
+}
+
+.disable {
+    display: none;
+}
+
+.imageBackground {
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.semiTransparent {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.solidBackground {
+    background-color: #eaf9f2;
+    
+}
+
+.greyBG {
+    background-color: #ccc;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.button:hover {
+    /*color: #3498db;*/
+    color: greenyellow;
+    /*opacity: 0.6;*/
+    cursor: pointer;
+}
+
+.buttonAlt:hover {
+    color: #006666;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.notSelectable {
+    user-select: none;
+}
+
+.center {
+    align-items: center;
+}
+
+.minority {
+    flex: 1;
+}
+
+.median {
+    flex: 2;
+}
+
+.majority {
+    flex: 12;
+}
+
+.fill {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.leftBorder {
+    border-left: 2px solid #000;
+}
+
+.bottomBorder {
+    border-bottom: 2px solid #000;
+}
+
+.roundBorder {
+    border-radius: 6px;
+}
+
+.cell {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+
+.pillBorder {
+    border-radius: 16px;
+}
+
+.textCenter {
+    text-align: center;
+}
+ 
+.textStandard {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.paddingSmall {
+    padding: 8px;
+}
+
+.paddingSmallW {
+    padding: 8px 16px 8px 16px;
+}
+
+.paddingMed {
+    padding: 16px;
+}
+
+.paddingLarge {
+    padding: 24px;
+}
+
+.marginSmall {
+    margin: 8px;
+}
+
+.marginMed {
+    margin: 16px;
+}
+
+.marginTopSmall {
+    margin-top: 8px;
+}
+
+.mailTitle {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #00406a;
+}
+
+.noOverflow { 
+    overflow: hidden; 
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.mainBody {
+    /*width: 100vw;  100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: block;
+}
+
+.borderBox {
+    box-sizing: border-box;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.maxWidth {
+    width: 100%;
+}
+
+.maxHeight {
+    height: 100px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Generated with chatGPT to reduce dev time*/
+/* Container with Flexbox layout */
+.colContainter,
+.rowContainer {
+    display: flex;
+}
+
+.colContainter {
+    flex-direction: column; 
+}
+
+.rowContainer {
+    flex-direction: row; 
+}
+
+/* Header styling */
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.toolbar {
+    background-color: #9999ff;
+    color: #fff;
+    padding: 6px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* Footer styling */
+.footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Row styling */
+.row {
+    padding: 12px 6px 12px 6px;
+}
+
+.rowItem {
+    max-height: 16px;
+}
+
+/* Column styling */
+.column {
+    background-color: #fff;
+    height: 100%;
+}
+
+
+
+/* List styling */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    margin-bottom: 5px;
+}
+
+/* Additional styles as needed */
