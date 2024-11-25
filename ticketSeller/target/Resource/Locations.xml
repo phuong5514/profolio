@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root>
+
+
+
+
+
+
+
+
+
+    
+<location Id="T3"><name>Theater 3</name><rows>10</rows><columns>15</columns></location><location Id="T4"><name>Rạp chiếu 4</name><rows>5</rows><columns>5</columns></location><location Id="T6"><name>Phòng chiếu 6</name><rows>16</rows><columns>10</columns></location><location Id="T1"><name>Phòng chiếu 1</name><rows>10</rows><columns>5</columns></location><location Id="T2"><name>A</name><rows>4</rows><columns>6</columns></location><location Id="T5"><name>Phòng chiếu 5</name><rows>12</rows><columns>6</columns></location></root>

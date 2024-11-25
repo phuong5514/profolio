@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root>
+<schedule Date="15/06/2024"><event Id="A"><ticket><customer><name>Khách hàng A</name><phone>123</phone></customer><session>15:00-17:00</session><locationId>T1</locationId><price>50000.0</price><seats><seat column="2" row="1"/></seats></ticket></event><event Id="B"><ticket><customer><name>Khách hàng B</name><phone>456</phone></customer><session>21:00-23:00</session><locationId>T6</locationId><price>120000.0</price><seats><seat column="6" row="1"/><seat column="6" row="2"/></seats></ticket></event></schedule></root>
