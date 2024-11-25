@@ -1,0 +1,13 @@
+main\studentmanagementweb\DeleteEntry.class
+datalayer\JDBC.class
+businessLayer\SessionManager$table.class
+datalayer\Table.class
+main\studentmanagementweb\resources\JakartaEE10Resource.class
+businessLayer\SessionManager.class
+main\studentmanagementweb\DashboardServlet.class
+main\studentmanagementweb\EditEntry.class
+main\studentmanagementweb\AddNewEntry.class
+datalayer\Entry.class
+main\studentmanagementweb\JakartaRestConfiguration.class
+main\studentmanagementweb\getDetails.class
+main\studentmanagementweb\welcomePage.class
